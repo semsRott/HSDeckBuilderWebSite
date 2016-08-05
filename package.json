@@ -1,0 +1,16 @@
+{
+  "name": "hsdeckbuilder",
+  "version": "0.0.1",
+  "description": "create a deck with multiple users",
+  "main": "app.js",
+  "dependencies": {
+    "forever": "0.15.2",
+    "express": "4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

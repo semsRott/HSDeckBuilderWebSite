@@ -1,0 +1,1 @@
+var express = require('express');var app = express();var path = require('path');app.use(express.static('public'));app.get('/', function(req, res) {    res.send(path.join(__dirname + '/index.html'));});var PORT = 8080;app.listen(PORT, function () {    console.log('Server running at ' + PORT);});
